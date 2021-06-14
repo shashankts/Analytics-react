@@ -1,0 +1,69 @@
+#horizontalbarGraph{
+    position: relative;
+    bottom: 260px;
+    left: 140px;
+    width: 100px;
+    padding-left: 70px;
+    height: 0;
+}
+
+#barGraph{
+    position: relative;
+    bottom: 270px;
+    left: 150px;
+    width: 300px;
+    padding-left: 110px;
+    height: 0;
+}
+
+#groupHeading{
+    position: absolute;
+    top:10px;
+    left:19px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: 10;
+    color: #2C2D2D;
+}
+#legends{
+    position: relative;
+    top: -70px;
+    left: -100px;
+    width: 104px;
+    height: 0px;
+}
+.text{
+    font-family: Lato-Regular;
+    font-size: 12px;
+}
+#groupBar{
+    position: relative;
+    top: 10px;
+    left: 0px;
+    width: 104px;
+    height: 270px;
+    padding-left:18px;
+}
+
+#groupHeading{
+    position: relative;
+    top:10px;
+    left:19px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 10;
+    color: #2C2D2D;
+}
+
+@media screen and (max-width: 1200px) {
+    #horizontalbarGraph, #barGraph,#groupBar{
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+}
+@media screen and (max-width: 700px) {
+    #horizontalbarGraph, #barGraph,#groupBar{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

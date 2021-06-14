@@ -1,0 +1,85 @@
+#graph_heading{
+    position: absolute;
+    top:10px;
+    left:19px;
+    width: 104px;
+    font-size: 18px;
+
+    font-weight: 10;
+    color: #2C2D2D;
+}
+
+#donut1{
+    position: relative;
+    top: 25px;
+    left: 16px;
+    width: 104px;
+    height: 104px;
+}
+
+#donut2{
+    position: relative;
+    top: 0px;
+    left: 80px;
+    width: 104px;
+    height: 160px;   
+}
+#donut3, #donut4{
+    position: relative;
+    top: 30px;
+    left: 5px;
+    width: 104px;
+    height: 200px;
+    padding-left:40px;
+    padding-right: 0;   
+}
+#donut5, #donut6, #donut7, #donut8{
+    position: relative;
+    top: 10px;
+    left: 5px;
+    width: 104px;
+    height: 160px;  
+    padding-left: 60px; 
+}
+
+#donut2_legend{
+    position: relative;
+    top: 0px;
+    left: 2px;
+    width: 104px;
+    height: 30px;   
+}
+#donut3_legend, #donut4_legend{
+    position: relative;
+    top: 10px;
+    left: 2px;
+    width: 104px;
+    height: 70px;   
+}
+
+#donut5_legend,#donut6_legend,#donut7_legend,#donut8_legend{
+    position: relative;
+    top: 10px;
+    left: 2px;
+    width: 104px;
+    height: 30px;   
+}
+
+.text{
+    font-size: 12px;
+    font-family: Lato-Regular;
+}
+@media screen and (max-width: 1200px) {
+    #donut3,#donut4,#donut5,#donut6,#donut7,#donut8{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width: 700px) {
+    #donut3,#donut4,#donut5,#donut6,#donut7,#donut8{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+
